@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--body-font);
   max-width: 1250px;
   margin: 0 auto;
 }
@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d8c8f8;
+  background-color: var(--primary-color);
   padding: 15px 30px;
   margin-bottom: 15px;
 }
@@ -39,7 +39,7 @@ header nav a {
   background-color: white;
   color: black;
   padding: 8px 18px;
-  border: 1px solid #333;
+  border: 1px solid var(--accent-color);
 }
 
 .hero {
@@ -72,7 +72,7 @@ header nav a {
   gap: 15px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 15px;
-  border: 1px solid #333;
+  border: 1px solid var(--accent-color);
 }
 
 .hero article img {
@@ -129,7 +129,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d8c8f8;
+  background-color: var(--primary-color);
   padding: 15px 30px;
 }
 
