@@ -1,4 +1,9 @@
-/* RESET & PAGE WIDTH */
+:root {
+  --primary-color: #d8c8f8;
+  --accent-color: #333;
+  --body-font: Arial, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +16,6 @@ body {
   margin: 0 auto;
 }
 
-/* SECTION 1: HEADER */
 header {
   display: flex;
   justify-content: space-between;
@@ -38,7 +42,6 @@ header nav a {
   border: 1px solid #333;
 }
 
-/* SECTION 2: HERO OVERLAY */
 .hero {
   position: relative;
   margin-bottom: 20px;
@@ -78,7 +81,6 @@ header nav a {
   float: right;
 }
 
-/* SECTION 3: HISTORY */
 .history {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -100,7 +102,6 @@ header nav a {
   object-fit: cover;
 }
 
-/* SECTION 4: ADVENTURE GALLERY */
 .adventures {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -124,7 +125,6 @@ header nav a {
   height: auto;
 }
 
-/* SECTION 5: FOOTER */
 footer {
   display: flex;
   justify-content: space-between;
