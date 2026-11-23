@@ -1,0 +1,143 @@
+/* RESET & PAGE WIDTH */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/* SECTION 1: HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d8c8f8;
+  padding: 15px 30px;
+  margin-bottom: 15px;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 8px 18px;
+  border: 1px solid #333;
+}
+
+/* SECTION 2: HERO OVERLAY */
+.hero {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hero > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px 0;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 25px;
+  left: 5%;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border: 1px solid #333;
+}
+
+.hero article img {
+  width: 120px;
+  height: auto;
+}
+
+/* SECTION 3: HISTORY */
+.history {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.history h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.history img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* SECTION 4: ADVENTURE GALLERY */
+.adventures {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.adventures h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.adventures figure {
+  text-align: center;
+}
+
+.adventures img {
+  width: 85%;
+  height: auto;
+}
+
+/* SECTION 5: FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d8c8f8;
+  padding: 15px 30px;
+}
+
+footer .socialmedia {
+  display: flex;
+  gap: 10px;
+}
+
+footer .socialmedia img {
+  width: 32px;
+  height: auto;
+}
